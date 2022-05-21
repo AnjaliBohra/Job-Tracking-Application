@@ -3,7 +3,7 @@
     <fullName>Recruiter</fullName>
     <active>true</active>
     <businessProcess>Recruiter</businessProcess>
-    <description>Lead by the of recruiter where company is unknown</description>
+    <description>Lead by the refrence of recruiter where company is unknown</description>
     <label>Recruiter</label>
     <picklistValues>
         <picklist>Degree_Required__c</picklist>
