@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Console version of Job Tracking Application.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Jobs Tracking Console Application</label>
+    <navType>Console</navType>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>Resume__c</tabs>
+    <tabs>standard-File</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Jobs_Tracking_Console_Application_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Resume__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Account</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Campaign</tab>
+        </mappings>
+        <mappings>
+            <fieldName>AccountId</fieldName>
+            <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-File</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Lead</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Opportunity</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

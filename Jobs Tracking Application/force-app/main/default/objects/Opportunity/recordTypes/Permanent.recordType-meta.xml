@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Permanent</fullName>
+    <active>true</active>
+    <businessProcess>Permanent</businessProcess>
+    <label>Permanent</label>
+    <picklistValues>
+        <picklist>Degree_Required__c</picklist>
+        <values>
+            <fullName>Equivalent Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DeliveryInstallationStatus__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yet to begin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insurance__c</picklist>
+        <values>
+            <fullName>Dental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Customer - Downgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer - Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer - Upgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
